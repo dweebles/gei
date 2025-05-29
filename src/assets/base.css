@@ -27,6 +27,21 @@
   --color-background-soft: var(--vt-c-white-soft);
   --color-background-mute: var(--vt-c-white-mute);
 
+  --gei-primary-core-blue: rgb(21, 73 , 115);
+  --gei-secondary-core-blue: rgb(69, 122, 165);
+  --gei-tertiary-core-blue: rgb(239, 246, 251);
+  --gei-core-accent: rgb(250, 206, 0);
+
+  --gei-default-black: rgb(0,0,0);
+  --gei-default-gray: rgb(98, 102, 106);
+  --gei-default-mid-gray: rgb(208, 208, 206);
+  --gei-default-light-gray: rgb(237, 237, 237);
+
+  --agency-primary: rgb(35, 63, 43);
+  --agency-secondary: rgb(126, 144, 132);
+  --agency-tertiary: rgb(217, 225, 221);
+  --agency-core-accent: rgb(250, 206, 0);
+
   --color-border: var(--vt-c-divider-light-2);
   --color-border-hover: var(--vt-c-divider-light-1);
 
@@ -36,7 +51,7 @@
   --section-gap: 160px;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--vt-c-black);
     --color-background-soft: var(--vt-c-black-soft);
@@ -48,7 +63,7 @@
     --color-heading: var(--vt-c-text-dark-1);
     --color-text: var(--vt-c-text-dark-2);
   }
-}
+} */
 
 *,
 *::before,
